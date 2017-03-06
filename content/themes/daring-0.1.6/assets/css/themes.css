@@ -1,12 +1,16 @@
 /*
  * Themes
  */
-.red a {
-  color: #ab4642;
+a {
+  color: #4a4a4a;
 }
 
-body.red {
-  border-top: 4px solid #ab4642;
+p a {
+  text-decoration: underline;
+}
+
+body {
+  border-top: 4px solid #4a4a4a;
 }
 
 input[type='submit'].button-primary {
