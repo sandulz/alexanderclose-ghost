@@ -5,14 +5,6 @@
     </li>
   {{/foreach}}
 
-  <!-- <li class="new-nav-group">
-    {{#if @labs.subscribers}}
-      <a class="subscribe-button" href="{{@blog.url}}/subscribe/">Subscribe</a>
-    {{else}}
-      <a class="subscribe-button icon-feed" href="{{@blog.url}}/rss/">Subscribe</a>
-    {{/if}}
-  </li> -->
-
   {{#if @blog.twitter}}
     <li class="new-nav-group">
       <a href="{{twitter_url}}">{{@blog.twitter}}</a>
@@ -30,12 +22,20 @@
   </li>
 
   <li class="github">
-    <a href="https://github.com/sandulz">GitHub</a>
+    <a href="https://github.com/sandulz ">GitHub</a>
   </li>
 
   <li class="tumblr">
     <a href="http://alexanderclose.tumblr.com/">Tumblr</a>
   </li>
+
+  <!-- <li class="new-nav-group">
+    {{#if @labs.subscribers}}
+      <a class="subscribe-button" href="{{@blog.url}}/subscribe/">Subscribe</a>
+    {{else}}
+      <a class="subscribe-button icon-feed" href="{{@blog.url}}/rss/">Subscribe</a>
+    {{/if}}
+  </li> -->
 
 </ul>
 
